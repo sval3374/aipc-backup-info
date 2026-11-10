@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AIPC Private Backup — 個人用バックアップ</title><meta name="description" content="個人利用のGitバックアップとGoogle Drive連携に関する説明。"><link rel="stylesheet" href="styles.css"></head>
+<body><header><a class="brand" href="index.html">AIPC Private Backup</a><nav aria-label="ページ案内"><a href="index.html" aria-current="page">アプリの説明</a><a href="privacy.html">プライバシー</a></nav></header>
+<main><p class="label">Personal use · Backup</p><h1>個人の作業記録を、<br>復元できる形で保存する。</h1><p class="lead">AIPC Private Backupは、運用者本人がローカルで作成したGitバックアップを、本人のGoogle Driveへ保存するための個人用ツールです。</p>
+<div class="panel"><h2>このアプリが行うこと</h2><p>本人の認証後、指定したバックアップファイルを専用フォルダへ保存し、ファイル名・サイズ・ハッシュ・保存先・共有状態を照合します。同じ世代の重複保存を避け、取得したバックアップを復元できるか確認します。定型処理は運用者のPCで実行します。</p><p>このWebサイトはアプリの案内です。Googleへのログイン、バックアップの受取り、ファイルの閲覧・ダウンロードを行う画面ではありません。</p></div>
+<h2>Googleの権限が必要な理由</h2><ul><li><span class="scope">drive.file</span>：このアプリに認可されたファイルの作成・読取りに使用します。転送処理では指定した専用フォルダに対象を限定します。</li><li><span class="scope">drive.metadata.readonly</span>：ファイルの識別情報や共有状態等を確認するために使用します。この権限はDrive全体のメタデータを読める範囲を持ちます。バックアップファイル本文の一般的な読取り権限ではありません。</li></ul>
+<h2>データの扱い</h2><p>保存するバックアップは本人の指定したGoogle Driveフォルダで管理します。既存世代の自動削除や他人への共有は行いません。本ツールの定型転送処理でデータを広告、販売、AIモデルの学習に使用しません。</p><p>詳しい利用目的、保存、第三者サービス、連携解除については<a href="privacy.html">プライバシーポリシー</a>をご確認ください。</p>
+<h2>運用と連絡先</h2><p>運用者と利用者は同一の個人です。一般利用者へのサービス提供や新規利用者の受付は行っていません。運用者の連絡先は、GoogleのOAuth同意画面に設定したサポート連絡先を使用します。</p></main>
+<footer>AIPC Private Backup · <a href="privacy.html">プライバシーポリシー</a> · 最終更新 2026-11-11</footer></body></html>

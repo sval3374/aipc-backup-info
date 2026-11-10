@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>プライバシーポリシー — AIPC Private Backup</title><meta name="description" content="AIPC Private Backupが扱うGoogleユーザーデータと連携解除について。"><link rel="stylesheet" href="styles.css"></head>
+<body><header><a class="brand" href="index.html">AIPC Private Backup</a><nav aria-label="ページ案内"><a href="index.html">アプリの説明</a><a href="privacy.html" aria-current="page">プライバシー</a></nav></header>
+<main><p class="label">Privacy policy</p><h1>プライバシーポリシー</h1><p class="lead">対象アプリ：AIPC Private Backup<br>最終更新：2026-11-11</p>
+<h2>1. 運用者と対象</h2><p>本アプリは個人運用者が本人のバックアップを管理するために使用します。運用者と利用者は同一です。第三者のGoogleアカウントを募集したり、一般向けのバックアップサービスを提供したりしません。連絡先はGoogleのOAuth同意画面に設定した運用者のサポート連絡先です。</p>
+<h2>2. 扱うデータと権限</h2><p>本人が選んだバックアップファイルの本文、ファイル名、ID、サイズ、ハッシュ、親フォルダ、所有者、共有状態などのメタデータを、転送・照合・復元確認のために扱います。Googleの認証情報は接続の維持に使用します。</p><p>要求する権限は<span class="scope">drive.file</span>と<span class="scope">drive.metadata.readonly</span>です。前者は本アプリに認可されたファイルを扱い、後者はDrive全体のファイルに関するメタデータを読める権限です。転送プログラムは設定した専用フォルダと対象バックアップに処理を限定します。</p>
+<h2>3. 利用目的と共有</h2><p>バックアップの保存、二重転送の防止、完全性・非共有状態の照合、復元確認、障害検出に使用します。本人のGoogle Driveへの転送以外に、バックアップ本文を広告主へ提供したり、販売したり、AIモデルの学習へ使用したりしません。本ツールの定型転送処理はAIモデルへの送信を行いません。</p><p>Googleから取得したユーザーデータは、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>のLimited Use要件を含む規定に沿って扱います。</p>
+<h2>4. 保存と保持</h2><p>バックアップは運用者のローカル保存先と本人のGoogle Driveに保存します。認証情報と運用状態は運用者のPCで管理し、認証情報をGit台帳や公開サイトに掲載しません。バックアップ世代は本人が明示的に整理・削除するまで保持し、自動削除しません。実行結果の記録は運用・復旧のためにローカルで保持します。</p>
+<h2>5. 連携停止・削除</h2><p>運用者はバックアップタスクを停止し、Googleアカウントの第三者アプリへのアクセス設定から本アプリの許可を取り消せます。許可を取り消す操作だけでは、既に保存したバックアップは削除されません。データの削除は、運用者がローカル保存先とGoogle Driveで対象を確認して行います。</p>
+<h2>6. 公開案内ページ</h2><p>この案内ページには、バックアップのアップロード、ログイン、入力フォーム、独自のアクセス解析を設けません。公開先のGitHub Pagesでは、GitHubがセキュリティのため閲覧者のIPアドレスを記録します。公開サービス側の取扱いは<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシー声明</a>をご確認ください。</p><p>案内ページの公開や非公開化は、バックアップの共有権限を変更しません。</p>
+<h2>7. 変更</h2><p>扱うデータ、目的、保存先、共有範囲を変更する場合は、このポリシーと同意・設定を見直します。</p><p><a href="index.html">アプリの説明へ戻る</a></p></main>
+<footer>AIPC Private Backup · 個人利用</footer></body></html>
